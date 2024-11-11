@@ -1,0 +1,55 @@
+// Find the missing number in the array.................
+  
+public static int missingNumber(int arr[], int n){
+        int sum =0;
+        for(int i =0; i< n-1 ; i++){
+            sum +=arr[i];
+        }
+
+        int expectedSum = (n*(n+1))/2;
+
+        return  expectedSum - sum;
+    }
+
+
+// -------- Find Occurence in the array ------
+
+public static void findOccurence(String str){
+
+        HashMap<Character,Integer> map = new HashMap<>();
+
+        for(int i=0; i<str.length();i++){
+           char ch =  str.charAt(i);
+
+           if(map.containsKey(ch)){
+               map.put(ch,map.get(ch)+1);
+           }else{
+               map.put(ch,1);
+           }
+
+        }
+        System.out.print(map);
+    }
+
+
+// ------- Count pair with given sum -------
+
+  public static void countPairSum(int arr[], int k){
+        int totalPairs = 0;
+
+
+        for(int i = 0; i<arr.length - 1; i++){
+            for(int j = i+1; j<arr.length; j++){
+                if((arr[i]+arr[j])==k){
+                    System.out.println("("+arr[i]+","+arr[j]+")");
+                    totalPairs++;
+                }
+            }
+        }
+      System.out.print(totalPairs);
+
+    }
+
+
+
+

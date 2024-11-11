@@ -1,0 +1,160 @@
+1. Arrays
+Topics: Basics, Sorting, Searching, Two Pointers, Sliding Window
+Problems:
+Find the maximum and minimum element in an array
+Reverse an array
+Find the "Kth" largest and smallest element in an array
+Sort an array of 0s, 1s, and 2s
+Merge two sorted arrays without extra space
+Maximum subarray sum (Kadane’s Algorithm)
+Subarray with a given sum
+Find all pairs on integers whose sum is equal to a given number
+Merge overlapping intervals
+Rotate array by K elements
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+2. Strings
+Topics: Basics, Palindromes, Anagrams, Pattern Matching
+Problems:
+Reverse a string
+Check if a string is a palindrome
+Find the duplicate characters in a string
+Longest Common Prefix
+Check if two strings are anagrams
+Longest Palindromic Substring
+Print all permutations of a string
+KMP algorithm for pattern matching
+Count and Say Problem
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+3. Linked Lists
+Topics: Singly Linked List, Doubly Linked List, Circular Linked List
+Problems:
+Reverse a linked list
+Detect and remove loop in a linked list
+Find the middle of a linked list
+Merge two sorted linked lists
+Remove duplicates from a sorted linked list
+Add two numbers represented by linked lists
+Intersection of two linked lists
+Flatten a multilevel linked list
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+4. Stacks and Queues
+Topics: Stack Operations, Queue Operations, Deque
+Problems:
+Implement stack and queue using arrays and linked lists
+Valid Parentheses (check balanced parentheses)
+Implement a Min Stack
+Next Greater Element
+LRU Cache Implementation
+Implement Queue using Stacks
+Circular Queue
+Evaluate a postfix expression
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+5. Trees
+Topics: Binary Tree, Binary Search Tree, Traversals, AVL Trees, Trie
+Problems:
+Inorder, Preorder, and Postorder Traversal
+Level Order Traversal
+Height of a Binary Tree
+Diameter of a Binary Tree
+Check if a tree is balanced
+Lowest Common Ancestor (LCA) of two nodes
+Serialize and Deserialize Binary Tree
+Construct Binary Tree from Inorder and Preorder/Postorder Traversals
+Trie Implementation (Prefix Tree)
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+6. Binary Search Tree (BST)
+Problems:
+Search in a Binary Search Tree
+Insert into a Binary Search Tree
+Delete a node from a Binary Search Tree
+Find the minimum and maximum value in a BST
+Validate a Binary Search Tree
+Find Kth smallest and Kth largest element in BST
+Convert Sorted Array to BST
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+7. Heaps / Priority Queue
+Problems:
+Implement a Min/Max Heap
+Kth largest element in an array
+Merge K sorted arrays
+Top K frequent elements
+Median of a Data Stream
+Find the running median
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+8. Hashing
+Topics: Hash Tables, Hash Maps, Hash Sets
+Problems:
+Two Sum Problem
+Subarray with 0 sum
+Longest Consecutive Sequence
+Count distinct elements in every window of size K
+Check if two arrays are equal
+Find the intersection of two arrays
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+9. Graphs
+Topics: DFS, BFS, Shortest Path, Graph Representations
+Problems:
+Implement Graph using Adjacency List
+Depth First Search (DFS) and Breadth First Search (BFS)
+Detect cycle in a graph
+Shortest path in an unweighted graph (BFS)
+Dijkstra’s Algorithm
+Flood Fill Algorithm
+Minimum Spanning Tree (Kruskal’s/Prim’s)
+Topological Sorting
+Detect cycle in a directed graph
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+10. Dynamic Programming (DP)
+Topics: Memoization, Tabulation, Knapsack Variants
+Problems:
+Fibonacci sequence
+Climbing Stairs
+Longest Increasing Subsequence
+0/1 Knapsack Problem
+Subset Sum Problem
+Coin Change Problem
+Minimum Edit Distance
+Longest Common Subsequence
+Matrix Chain Multiplication
+House Robber Problem
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+11. Backtracking
+Problems:
+N-Queens Problem
+Rat in a Maze
+Sudoku Solver
+Word Search in a Grid
+Generate all subsets/powersets
+Permutations of a given string/array
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+12. Bit Manipulation
+Problems:
+Check if a number is even or odd
+Count set bits in an integer
+Find the only non-repeating element
+Subsets of a set using bit manipulation
+Find XOR of all elements in an array
+Reverse bits of a number
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+13. Advanced Algorithms
+Topics: Divide and Conquer, Greedy, Sliding Window, Two Pointer
+Problems:
+Merge Sort and Quick Sort
+Finding majority element (Moore’s Voting Algorithm)
+Job Sequencing Problem
+Fractional Knapsack
+Minimum number of platforms required for trains
+Minimum cost to connect ropes

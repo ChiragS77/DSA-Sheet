@@ -1,0 +1,90 @@
+
+Here are some SQL questions based on the GROUP BY clause, which is used to group rows that have the same values in specified columns and aggregate them using functions like COUNT(), SUM(), AVG(), etc.
+
+1. Basic Grouping and Counting
+Question: Write a query to count how many employees are there in each department from the employees table.
+
+sql
+Copy code
+SELECT department_id, COUNT(*) AS total_employees
+FROM employees
+GROUP BY department_id;
+2. Aggregating with SUM
+Question: Write a query to find the total salary paid in each department from the employees table.
+
+sql
+Copy code
+SELECT department_id, SUM(salary) AS total_salary
+FROM employees
+GROUP BY department_id;
+3. Using AVG with GROUP BY
+Question: Write a query to calculate the average salary for each job role from the employees table.
+
+sql
+Copy code
+SELECT job_title, AVG(salary) AS average_salary
+FROM employees
+GROUP BY job_title;
+4. Filtering with HAVING
+Question: Write a query to list the departments that have more than 5 employees.
+
+sql
+Copy code
+SELECT department_id, COUNT(*) AS employee_count
+FROM employees
+GROUP BY department_id
+HAVING COUNT(*) > 5;
+5. Using GROUP BY with Multiple Columns
+Question: Write a query to find the total sales per department and per year from the sales table.
+
+sql
+Copy code
+SELECT department_id, YEAR(sale_date) AS sale_year, SUM(sale_amount) AS total_sales
+FROM sales
+GROUP BY department_id, YEAR(sale_date);
+6. MIN and MAX with GROUP BY
+Question: Write a query to find the highest and lowest salary in each department from the employees table.
+
+sql
+Copy code
+SELECT department_id, MAX(salary) AS highest_salary, MIN(salary) AS lowest_salary
+FROM employees
+GROUP BY department_id;
+7. Counting Unique Values with GROUP BY
+Question: Write a query to count how many unique job titles are in each department from the employees table.
+
+sql
+Copy code
+SELECT department_id, COUNT(DISTINCT job_title) AS unique_job_titles
+FROM employees
+GROUP BY department_id;
+8. Using GROUP BY with JOIN
+Question: Write a query to find the total amount of orders made by each customer from the customers and orders tables.
+
+sql
+Copy code
+SELECT c.customer_id, c.customer_name, SUM(o.order_amount) AS total_order_amount
+FROM customers c
+JOIN orders o ON c.customer_id = o.customer_id
+GROUP BY c.customer_id, c.customer_name;
+9. Using GROUP BY and DATE Functions
+Question: Write a query to calculate the total sales for each month from the sales table.
+
+sql
+Copy code
+SELECT MONTH(sale_date) AS month, SUM(sale_amount) AS total_sales
+FROM sales
+GROUP BY MONTH(sale_date);
+10. Using GROUP BY with CASE Statements
+Question: Write a query to find the total number of employees grouped by whether their salary is above or below the company average salary from the employees table.
+
+sql
+Copy code
+SELECT 
+  CASE 
+    WHEN salary > (SELECT AVG(salary) FROM employees) THEN 'Above Average'
+    ELSE 'Below Average'
+  END AS salary_category,
+  COUNT(*) AS employee_count
+FROM employees
+GROUP BY salary_category;

@@ -1,0 +1,19 @@
+-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_   String  DSA Questions   -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+Q.------------------- Check Palindrome ------------------
+>Two Pointer Algo
+public static boolean checkPalindrome(String str) {
+		
+		String temp = str;
+		int start  = 0; 
+		int end = str.length()-1;
+		
+		while(start<end) {
+			if(str.charAt(start)!=temp.charAt(end)) {
+				return false;
+			}
+			start++;
+			end--;
+		}
+		return true;
+	}

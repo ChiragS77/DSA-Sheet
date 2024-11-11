@@ -1,0 +1,11 @@
+1> Carpooling App
+2>Ai powered document sumamizer
+3>Recipe Recommendation system
+4> Finance and Budgeting
+Expense Tracker: Build an app to track daily expenses, set budgets, and analyze spending patterns. Use graphs to show monthly or category-wise spending.
+Stock Portfolio Tracker: Track a user's stock portfolio with data pulled from a financial API. 
+
+
+** Free Apis **
+1> MapBox
+2> serpApi
